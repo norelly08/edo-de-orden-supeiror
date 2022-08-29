@@ -1,0 +1,171 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{fancyhdr, graphicx,parskip}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{changepage}
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+
+\author{}
+\title{ECUACIONES DIFERENCIALES DE ORDEN SUPERIOR.METODO DE COEFICIENTES INDETERMINADOS.}
+\begin{document}
+ \maketitle
+ %datos de la portada
+ \begin{center}
+ \par\vspace{5cm}
+ \textbf{
+  Docente: Jhonatan Collazos Ramirez\\[0.3cm]
+ presentado por: Norelly Sandoval Ortigoza\\[5cm] 
+ Universidad del Cauca\\[0.3cm]
+ Sede Santander de Quilichao\\[0.3cm]
+ Facultad de ingeniería civil
+ }
+ 
+ \end{center}
+ \begin{titlepage}
+ \begin{LARGE}
+ \vspace*{2\baselineskip}
+ \hrule 
+ \title {Ecuaciones diferenciales de orden superior}
+ \end{LARGE}
+ 
+  
+ \section{Introduccion}
+las ecuaciones diferenciales de orden superior Son llamadas también como ecuación diferencial ordinaria de orden "n" y de manera general una expresión del tipo:
+Es también una solución de la E.D. y podemos verificar derivando y sustituyendo. Supongamos que y1(x), y2(x), y3(x) son soluciones de la ecuación lineal homogénea L(y)=0, con C1, C2 Y C3 constantes, definimos y=C1y1(x)+C2y2(x)+C3y3(x), entonces por linealidad de L, tenemos:
+Esta expresión nos dice que si dos funciones son L.D, entonces una es múltiplo constante de la otra, de igual manera nos dice que dos funciones son L.I si ninguna es múltiplo constante de la otra en un intervalo.
+ \section{Marco teórico}
+ 
+ \subsection*{Definición}
+ 
+ se debe recordar que una ecuación diferencial de n-ésimo orden en su forma general es:
+ 
+ $F$,( $x,y,y',.....,y^n)$ = 0 \\ [0.1cm ]
+Donde F es una función con valores reales de n+2 variables. La ecuación (1) se puede escribir en su forma normal como \\ [0.2cm]
+$ \dfrac{d^ny}{dx^n}$=$f$($x,y,y'......y^(n-1))$\\ [0.2cm]
+cuando se habla de el orden de una ecuación diferencial se hace referencia a la derivada mas alta; es decir si es una sola derivada la ecuación es de primer orden, si la derivada mayor de la ecuación es una segunda derivada, esta es de segundo orden y así sucesivamente.\\ [0.2cm]
+Se mostraran algunos ejemplos de ecuaciones diferenciales de orden superior y como reconocerlas: \\ [0.2cm]
+1:$e^x$$y$-$y^n$ = $0$
+es lineal respecto Y y y'' pues estos elementos permanecen inalterados, además, la derivada de mayor orden involucrada es de segundo orden, por lo tanto, concluimos que es una ecuación diferencial ordinaria lineal de segundo orden.\\ [0.2cm] 
+2: $2X^6$$Y'''$ + $9X^8$ $Y'$ = 0; es lineal respecto a la variable y' y y''' pues estos elementos permanecen inalterados, además, la derivada de mayor orden involucrada es de tercer orden, por lo tanto, concluimos que es una ecuación diferencial ordinaria lineal de tercer orden. \\ [0.2cm]
+3: $6y^n$$e^x$-$8y'$$y$ = $e^2x$ no es lineal respecto a y y y' pues estos elementos están siendo multiplicados entre sí, además, la derivada de mayor orden involucrada es de segundo orden, por lo tanto, concluimos que es una ecuación diferencial ordinaria no lineal de segundo orden.\\ [0.4cm]
+
+ \subsection*{Formulas}
+ 
+las ecuaciones diferenciales de orden n  o ecuaciones lineales de orden superior emplean distintos modos de  uno de ellos se puede presentar de la sigiente forma: \\ [0.2cm]
+$a_{n}$$(x)$ $y^n $ + .... +$a_{1}$$(x)$ $y'$ +$a_{0}$$(x)$$y$ = $g(x)$\\ [0.2cm]
+Estas ecuaciones se caracterizan por las siguientes propiedades:\\ [0.2cm]
+1. La variable dependiente y así como sus derivadas tienen exponente igual a 1, o bien 0, exclusivamente.\\ [0.2cm]
+2. Los coeficientes que se mostraron anteriormente en la formula  son funciones que sólo dependen de x, o son
+constantes. Es decir, no dependen de la variable dependiente y.\\ [0.2cm]
+\includegraphics[scale=0.6]{1.jpg}
+\end{titlepage}
+ \begin{titlepage}
+\section{Ecuaciones "lineales" de primer orden}
+las características fundamentales de las ecuaciones lineales de orden superior son iguales que las de primero orden; la ecuación es lineal en Y y sus derivadas, mientras que las funciones de x pueden ser cualquiera.\\ [0.2cm]
+\subsection*{Como solucionar una ecuación diferencial lineal de orden superior}
+cuando se tiene una ecuación lineal se debe intentar dividirla en dos, es decir; en lineal no homogénea.\\ [0.2cm]
+
+$a_{n}$$(x)$$\dfrac{d^{n}y}{dx^n}$+$a_{n-1}$$(x)$$\dfrac{d^{n-1}y}{dx^{n-1}}$ +...+$a_{1}$$(x)$$\dfrac{dy}{dx}$+$a_{0}$$(x)$$y$=$r$$(x)$ \\ [0.2cm]
+
+Y en lineal homogenea: \\ [0.4cm]
+$a_{n}$$(x)$$\dfrac{d^{n}y}{dx^n}$+$a_{n-1}$$(x)$$\dfrac{d^{n-1}y}{dx^{n-1}}$ +...+$a_{1}$$(x)$$\dfrac{dy}{dx}$+$a_{0}$$(x)$$y$= 0 \\ [0.4cm]
+con todo lo anterior se dice que la solucion general para las ecuaciones lineales de orden superior, consiste en una solucion de la parte homogenea y una solucion particular de la parte no homogenea. \\ [0.2cm]
+
+$y$ = $y_{n}$ + $y_{p}$  \\ [0.2cm]
+
+la solucion de la ecuacion homogenea depende del grado de la derivada es decir; la derivada de mayor grado es de grado n entonces la solucion tendra n resultados con la siguiente forma general. \\ [0.4cm]
+
+$y_{H}$ = $C_{1}$$Y_{1}$ +...+ $C_{n}$$Y_{n}$ \\ [0.2cm]
+
+$y_{1}$,....,$y_{n}$ sean linealmente independientes, es decir distintas, y la solucion seria. \\ [0.2cm]
+ 
+ $y$= $C_{1}$$Y_{2}$+....+$C_{n}$$Y_{n}$+$y_{p}$
+
+ 
+ \end{titlepage}
+ \section{Metodo de los coeficientes indeterminados }
+ 
+El método de coeficientes indeterminados es un procedimiento utilizado para obtener una solución particular  para la ED lineal no homogénea con coeficientes constantes.\\ [0.4cm]
+$a_{n}$$y^n$ + $a_{n-1}$$y^{n-1}$ +...+ $a_{3}$$y^3$ + $a_{2}$$y''$ +$a_{1}$$y'$ + $a_{0}$$y$ = $g$$(x)$ \\ [0.4cm]
+
+
+Una restricción que existe para poder aplicar este método consiste en el tipo de función que puede ser $g$$(x)$
+El método funcionará adecuadamente cuando  $g$$(x)$ sólo sea alguno de los tipos siguientes:\\ [0.2cm]
+
+ 1: $g$$(x)$=$p_{n}$$(x)$.
+ Los polinomios de grado n son generados por las funciones (1,x...x")como se ha visto en
+este contexto, estas funciones están asociadas a la raíz cero de multiplicidad n+1 de la ecuación
+característica.  \\ [0.3cm]
+2: 	$g$$(x)$=$p_{n}$$(x)$$e^{\alpha x}$; con $\alpha$ constante y  $p_{n}$ un polinomio de grado n.
+Estas funciones son generadas por las funciones ($e^{\alpha x}$$xe^{\alpha x}$,...,$x^n$$e^{\alpha x}$)Las cuales estan asociadas a la raiz $\alpha$ de multiplicidad n+1  de la ecuacion caracteristica.
+\subsection*{APLICACIONES DE LAS ECUACIONES DIFERENCIALES DE ORDEN SUPERIOR APLICADO A LA INGENIERIA CIVIL}
+
+En el siglo XVIII Leonhard Euler fue uno de los primeros matematicos en estudiar un problema de valores propios al analizar como se curva una columna elastica sometida a una fuerza axial de compresion se ha  visto que la relacion entre el momento  flexor M(x) y el radio de curvatura R(x) en un punto x de la viga viene dada por:\\ [0.3cm]
+$M$$(x)$=$\dfrac{EI_{2}}{R(X)}$ \\ [0.3cm]
+\includegraphics[scale=2]{2.jpg}\\ [0.2cm]
+Pandeo de una viga sometida a una fuerza axial F de compresión \\ [0.6cm]
+Supongamos primeramente que la curvatura es pequeña, de manera que $\dfrac{1}{R(X)}$ $\approx$ $y"$$(x)$. El momento 
+exor M(x) a una distancia x del extremo izquierdo de la viga es igual al
+producto de la fuerza F por el brazo de momento (es decir, la ordenada correspondiente):\\ [0.2cm]
+$M(x)$ = $F_{y}$$(x)$;\\ [0.6cm]
+de manera que, para pandeos peque~nos la ecuación a estudiar es: \\ [0.6cm]
+$y''$$"(x)$ + $\dfrac{F}{EI_{2}}$ $Y(X)$= $0$; $Y(0)$= $0$=$Y(\ell)$ \\ [0.6cm]
+que tiene soluciones:\\ [0.2cm]
+$Y_{n}$$(x)$ = $A$$\sin $($\lambda_{n}$$x$), $\lambda_{n}$ = $\dfrac{\eta\pi}{\ell}$ = $\sqrt{\dfrac{F_{n}}{EI_{z}}}$, n=1,2,3..\\ [0.3cm]
+Es decir, se trata de un de un problema de auto valores $\lambda_{n}$ (cargas criticas) y auto-funciones
+$Y_{n}$ (modos de desviación) cuyo  físico es el siguiente: la columna se desvía solo
+cuando la fuerza de compresión tiene uno de los valores:\\ [0.4cm]
+Estas fuerzas se llaman cargas criticas. La curva de deflexion y(x) que corresponde a la mínima carga critica, $F_{1}$=$\dfrac{\pi^2 EI_{z}}{\ell^2 }$ (carga de Euler ), es , que se
+conoce como primer modo de desviación. Las curvas de deflexion correspondientes a cargas superiores Fn; n = 2; 3;::: se corresponden con modos de desviación donde la
+columna tiene algún tipo de restricción física o guía en $x_{n}$=$c{L}{n}$ La
+columna no se desviaría para otras cargas intermedias que no sean estas cargas criticas
+(o auto valores) Fn. Este es un problema parecido al de la cuerda giratoria.
+ donde la cuerda adopta ciertas formas (modos de desviación)
+para ciertas frecuencias criticas de rotación.
+\includegraphics[scale=1.5]{3.jpg}\\ [0.2cm]
+Consideremos ahora curvaturas  no necesariamente pequeñas. Recordemos que la curvatura de definida como el cociente:\\ [0.4cm]
+$k$=$\dfrac{1}{R(x)}$ = $\dfrac{d\emptyset}{ds}$, \\ [0.4cm]
+con ds un diferencial de arco de curva y$\emptyset$ = arctan(y'(x))  Si derivamos nuevamente con respecto a s la ecuación anterior y tenemos en cuenta que dy/ds = sen $\emptyset$ , obtenemos finalmente que la ecuación diferencial de la curva elástica es:\\ [0.2cm]
+$\dfrac{d^2\emptyset}{ds^2}$ = $-\dfrac{F}{EI_{2}}$ $\sin \emptyset$ \\ [0.2cm]
+
+Esta ecuación es formalmente idéntica a la de un péndulo simple. Se trata de una ecuación no lineal de orden dos cuyo estudio se sale de los objetivos de esta memoria. Trate el lector de imaginar la forma cualitativa de las curvas elásticas solución de esta ecuación (utilice la intuición física. . . ).\\ [0.2cm]
+\section{BIBLIOGRAFIA}
+@article{definicion,
+author = {http://canek.uam.mx/Ecuaciones/Teoria/4.LinealesOrdenSuperior/ImpLinealHomogeneas.pdf},
+title = {Ecuaciones diferenciales de orden superior},
+year = {23/09/2010}, \\ [0.2cm]
+
+@Article{EJEMPLOS,
+author = {Anthonny Arias},
+title = {Ecuaciones Diferenciales Ordinarias Lineales de Orden Superior},
+journal = {https://totumat.com/2020/10/07/ecuaciones-diferenciales-ordinarias-lineales-de-orden-superior/},
+year = {07/10/2020},\\ [0.2cm]
+
+@Article{IMAGEN 1,
+author = {SIDE DO TOC},
+title = {Ecuaciones Diferenciales Ordinarias Solucin Numrica EDO Ecuacin Diferencial},
+journal = {https://slidetodoc.com/ecuaciones-diferenciales-ordinarias-solucin-numrica-edo-ecuacin-diferencial/},\\ [0.2cm]
+
+@Article{Solucionar ecuaciones diferenciales lineal de orden superior ,
+author = {STU DOCU},
+title = {ECUACIONES DIFERENCIALES DE ORDEN SUPERIOR},
+journal = {https://www.studocu.com/es-ar/document/universidad-nacional-de-la-rioja/analisis-matematico-i/ecuaciones-diferenciales-de-orden-superior/2862800},
+year = {2019},\\ [0.2cm]
+
+@Article{Método de coeficientes indeterminados ,
+author = { canek.azc.},
+title = {Método de coeficientes indeterminados},
+journal = {http://canek.uam.mx/Ecuaciones/Teoria/4.LinealesOrdenSuperior/ImpIndeterminados.pdf},
+year = {2010},\\ [0.2cm]
+
+@Article{Ejercicio de aplicación ,
+author = {Manuel Calixto Molina},
+title = {Ecuaciones Diferenciales Ordinarias
+de Orden Superior y Aplicaciones a la Ingenieria Civil},
+year = {2002}
+\end{document}
